@@ -1,0 +1,98 @@
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+form,
+footer,
+header,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+body{
+  font-family: 'Love Ya Like A Sister', cursive;
+}/*                                            */
+header{
+  background: rgb(188,85,78);
+  color: white;
+}/*   */
+
+ nav ul li{
+  display: inline-flex;
+}
+
+a{
+  color: white;
+  float: 20px left;
+}
+
+
+
+.principal{
+  background-image: url("../images/inicial2.jpg") !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+ .principal  .contenido{
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(210, 210, 180);
+  height: 80px;
+  margin-top: 80px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 4px;
+  padding-right: 4px;
+  width: 300px;
+  opacity: 0.5;
+
+ 
+  border-radius: 10px 10px;
+}
+
+
+@media screen and (max-width: 650px) {
+/* media para celular y table*/
+
+header{
+  text-align: center;
+
+}
+a{
+ text-decoration: none;
+ color: white;
+}
+
+nav ul li {
+  display: inline;
+}
+.principal .contenido{
+  width: 200px;
+  height: 180px;
+  opacity: 0.5;
+  
+}
+
+
+
+}
+
+
+
+
